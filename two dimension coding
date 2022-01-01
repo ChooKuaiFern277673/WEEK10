@@ -1,0 +1,27 @@
+package myArray;
+
+public class twoD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//[]row []collumn
+		
+				int[][] integers = {
+						{1,2,3,4},
+						{5,6,7,8},
+						{9,10,11,12}
+				};
+				
+				//Row
+				for(int O = 0; O < 3; O++) {
+					int sum =0;
+					for (int P = 0; P < 4; P++)
+						sum += integers [O][P];
+					
+					System.out.println("The sum of row " + (O + 1) + ": " + sum);
+					
+				}
+		}
+
+}
